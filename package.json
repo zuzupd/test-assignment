@@ -1,0 +1,27 @@
+{
+  "name": "bmi-calculator-tests",
+  "version": "1.0.0",
+  "description": "Playwright tests for BMI Calculator application",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "e2e",
+    "bmi-calculator",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "playwright": "^1.48.0"
+  }
+}
