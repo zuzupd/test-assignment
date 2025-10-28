@@ -130,13 +130,10 @@ You have **complete freedom** in how you structure your tests. The only provided
 
 ## User Stories Coverage
 
-Your tests should verify all 4 user stories in [`user-stories.md`](./user-stories.md):
+Your tests should verify user story in [`user-stories.md`](./user-stories.md):
 
 1. **Calculate BMI** - Basic calculation, formatting, validation
-2. **Calculate Body Fat** - Body fat percentage, age restrictions
-3. **Classify BMI** - WHO classification standards
-4. **Visualize BMI with Gauge** - Gauge display and updates
-
+   
 ## Tips for Success
 
 - **Start simple**: Create one basic test to verify your setup works
